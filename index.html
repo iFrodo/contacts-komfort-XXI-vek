@@ -12,20 +12,7 @@
 </head>
 
 <body>
-    <div style="display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-decoration: none;
-    align-items: center;
-    border: 1px solid;
-    width: 40%;
-    margin: 0 auto;
-    border-radius: 15px;
-    border: 2px solid #f3f3f4;
-    border-radius: 12px;
-
-    background: #ffffff;
-    ">
+    <div class="container">
         <h2>Наши контакты:</h2>
         <a href="https://komfort21vek.ru">Комфорт XXI век</a>
         <a href="https://vk.com/komfort21vek">Группа VK</a>
@@ -67,6 +54,32 @@
             height: 150px;
             width: 150px;
         }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-decoration: none;
+            align-items: center;
+            border: 1px solid;
+            width: 40%;
+            margin: 0 auto;
+            border-radius: 15px;
+            border: 2px solid #f3f3f4;
+            border-radius: 12px;
+
+            background: #ffffff;
+        }
+        @media (max-width: 658px) {
+            .container{
+                width: 100%;
+            }
+        }
+        /* @media (max-width: 375px) {
+            .container{
+                width: 100%;
+            }
+        } */
     </style>
 </body>
 
